@@ -13,7 +13,7 @@ This is a user mode file system driver for Hexalinq Drive, the cloud storage, wh
 ## Usage
 - Create an API token with Binary Workbench:
   
-![API tokens](https://user-images.githubusercontent.com/56119048/169799756-7656eba5-d7c1-4a02-9fe0-794d6f6ef7df.png)
+![API tokens](/docs/apikeys.png)
 
 - Mount your file system: `mount -t hexalinq-drive -o token=API_TOKEN /srv/binwb /path/to/an/empty/directory`
 
