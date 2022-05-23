@@ -110,7 +110,7 @@ static int _HandlePath(struct fuse_args* pArgs) {
 
 static int _HandleArgs(struct fuse_args* args) {
 	if(fsrpc_init()) return 1;
-	if(fsrpc_set_endpoint(SCHEME "://" ENDPOINT "/api")) return 1;
+	if(fsrpc_set_endpoint(SCHEME "://" ENDPOINT "/fsapi")) return 1;
 
 	if(fuse_opt_parse(args, &tOptions, option_spec, NULL)) crash("fuse_opt_parse");
 	if(fuse_opt_insert_arg(args, 1, "-osubtype=hexalinq-drive,fsname=" ENDPOINT)) crash("fuse_opt_add_arg");
