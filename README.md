@@ -4,6 +4,7 @@
 This is a user mode file system driver for Hexalinq Drive, the cloud storage, which is used by [Binary Workbench](https://bw.hexalinq.com/) to store your projects. Currently provides read-only access.
 
 ## Building
+### Linux
 - You'll need make, gcc, libfuse, and libcurl installed:
   - Arch Linux and derivatives (Manjaro, BlackArch, etc.): `pacman -Sy make gcc fuse3 curl`
   - Debian and derivatives (Ubuntu, Linux Mint, Kali Linux, etc.): `apt install make gcc libfuse3-dev libcurl-dev`
