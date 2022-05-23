@@ -25,3 +25,4 @@ This is a user mode file system driver for Hexalinq Drive, the cloud storage, wh
 - [ ] `/srv/binwb/projects/by-name` and `/srv/binwb/projects/<uid>/sections/by-name` pseudo-directories with symlinks
 - [ ] Expose the root directory of the file system
 - [ ] Allow arbitrary file creation at `/home`
+- [ ] Windows support using [Dokan](https://github.com/dokan-dev/dokany)
